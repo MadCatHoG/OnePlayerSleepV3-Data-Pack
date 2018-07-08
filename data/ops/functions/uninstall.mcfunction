@@ -8,7 +8,7 @@
 # clears all scoreboards
 ##########################################
 
-datapack disable "file/OnePlayerSleepV2.zip" 
+datapack disable "file/OnePlayerSleepV2.2.zip" 
 scoreboard objectives remove ops.kickBed
 scoreboard objectives remove ops.sleep
 

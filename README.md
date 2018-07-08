@@ -10,6 +10,7 @@ Some of the features include:
 Version 2.2 Features:
   - Random sleeping announcements. A series of messages displayed at random when someone sleeps.
   - Random wake up messages. A series of messages when a player is woken up by somebody.
+  - Uninstaller to clean up scoreboards and disable the data pack.
 
 # More resources
 To see this in action you can visit [my website][mcweb] or watch the [video][yt] I made about the first version.
