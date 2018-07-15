@@ -13,10 +13,14 @@ Version 2.2 Features:
   - Uninstaller to clean up scoreboards and disable the data pack.
 
 # More resources
-To see this in action you can visit [my website][mcweb] or watch the [video][yt] I made about the first version.
+To see this in action you can visit [my website][mcweb] or watch the [video][yt2] I made about this.
+Additionally, I've made a [video][yt1] about the previous version (Release v2.1)
 
 
+Thanks for your support so far, it keeps me going!
+~MadCat
 
    [mcweb]: <http://www.madcatgaming.com/one-player-sleep-data-pack/>
-   [yt]: <https://youtu.be/b_RaFutGFMI>
+   [yt1]: <https://youtu.be/b_RaFutGFMI>
+   [yt2]: <https://youtu.be/CbQggVOskSs>
 
