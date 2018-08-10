@@ -1,7 +1,7 @@
 ##########################################
 # Author: MadCat (youtube.com/MadCatHoG) 
-# Date: Jul 1, 2018
-# Version: 2.2
+# Date: Jul 31, 2018
+# Version: 2.3
 # Minecraft Version 1.13
 # Description:
 # Shows a random message when a Player

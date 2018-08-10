@@ -1,16 +1,16 @@
 ##########################################
 # Author: MadCat (youtube.com/MadCatHoG) 
-# Date: Jul 1, 2018
-# Version: 2.2
+# Date: Jul 31, 2018
+# Version: 2.3
 # Minecraft Version 1.13
 # Description:
 # Disables One Player Sleep data pack and
 # clears all scoreboards
 ##########################################
 
-datapack disable "file/OnePlayerSleepV2.2.zip" 
+datapack disable "file/OnePlayerSleepV2_3-Clear.zip" 
 scoreboard objectives remove ops.kickBed
 scoreboard objectives remove ops.sleep
 
-tellraw @a ["",{"text":"One Player Sleep v2.2","bold":true,"color":"red"},{"text":" ","bold":true,"color":"green"},{"text":"by ","color":"green"},{"text":"MadCat ","bold":true,"color":"green"},{"text":"(Uninstalled/Disabled)","italic":true,"color":"green"},{"text":"\nVisit ","color":"green"},{"text":"www.youtube.com/MadCatHoG","bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://youtube.com/MadCatHoG"}}]
+tellraw @a ["",{"text":"One Player Sleep v2.3","bold":true,"color":"dark_aqua"},{"text":" ","bold":true,"color":"green"},{"text":"by ","color":"green"},{"text":"MadCat","bold":true,"color":"green","underlined":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Click to check out MadCat on YouTube","color":"aqua"}]}},"clickEvent":{"action":"open_url","value":"https://youtube.com/MadCatHoG"}},{"text":" (Uninstalled/Disabled)","italic":true,"color":"green"}]
 tellraw @a ["",{"text":"To install again use the "},{"text":"/datapack enable","italic":true},{"text":" command"}]

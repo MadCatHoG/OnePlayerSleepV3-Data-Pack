@@ -1,7 +1,7 @@
 ##########################################
 # Author: MadCat (youtube.com/MadCatHoG) 
 # Date: Apr 15, 2018
-# Version: 2.2
+# Version: 2.3
 # Minecraft Version 1.13
 # Description:
 # Actions to kick a player out of bed.
