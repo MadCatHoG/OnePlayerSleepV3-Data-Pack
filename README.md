@@ -10,17 +10,28 @@ Some of the features include:
 Version 2.2 Features:
   - Random sleeping announcements. A series of messages displayed at random when someone sleeps.
   - Random wake up messages. A series of messages when a player is woken up by somebody.
-  - Uninstaller to clean up scoreboards and disable the data pack.
+
+Version 2.3 Features:
+  - Weather changes to cycle the weather often.
+
+Version 2.4 Features:
+  - Better weather control.
+  - Players now can stop storms if they go to sleep when is daytime.
+  - Fix: Time would advance for a long time if it was storming in the morning and players were sleeping.
+  Now storms end when the sun comes up and the player will naturally get woken up.
+  - The weather will only be affected in case of thunderstorm during the day (and players taking action). This data pack does not change the weather with regular sleeping at night.
 
 # More resources
-To see this in action you can visit [my website][mcweb] or watch the [video][yt2] I made about this.
-Additionally, I've made a [video][yt1] about the previous version (Release v2.1)
+To see this in action you can visit [my website][mcweb].
+Videos:
+  - Weather changes [video][yt2.4] (v2.4).
+  - Messaging update [video][yt2.2] (v2.2).
+  - First data pack version [video][yt2.1].
 
 
-Thanks for your support so far, it keeps me going!
-~MadCat
 
-   [mcweb]: <http://www.madcatgaming.com/one-player-sleep-data-pack/>
-   [yt1]: <https://youtu.be/b_RaFutGFMI>
-   [yt2]: <https://youtu.be/CbQggVOskSs>
+   [mcweb]: <https://www.madcatgaming.com/one-player-sleep-data-pack/>
+   [yt2.4]: <https://youtu.be/dg8eUG3aYoo>
+   [yt2.2]: <https://youtu.be/CbQggVOskSs>
+   [yt2.1]: <https://youtu.be/b_RaFutGFMI>
 
