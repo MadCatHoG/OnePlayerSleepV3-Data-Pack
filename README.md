@@ -21,6 +21,14 @@ Version 2.4 Features:
   Now storms end when the sun comes up and the player will naturally get woken up.
   - The weather will only be affected in case of thunderstorm during the day (and players taking action). This data pack does not change the weather with regular sleeping at night.
 
+Version 2.5 Features:
+  - Support for Minecraft 1.14 snapshots. Mojang removed the "Sleeping" NBT from their data model.
+  - Added compatibility! Data pack will work in Minecraft 1.13 and 1.14
+  - Fixed some messages to be gender neutral.
+  - Commented gamerule sendCommandFeedback, this made some people crazy thinking I broke their Minecraft server.
+  - Tested in Snapshot 19w09a. Snowballs have a bug where players can't be affected by them, that broke the waking up feature. I've changed the waking up feature to something more clever. No need for silly snowballs anymore!
+  - Tested in Minecraft 1.13.2 Works as expected.
+
 # More resources
 To see this in action you can visit [my website][mcweb].
 Videos:
