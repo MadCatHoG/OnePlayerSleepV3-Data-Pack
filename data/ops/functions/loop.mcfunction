@@ -1,7 +1,7 @@
 ##########################################
 # Author: MadCat (youtube.com/MadCatHoG) 
 # Date: March 2, 2019
-# Version: 2.5
+# Version: 3.0
 # Minecraft Version 1.13 / 1.14
 # Description:
 # One Player Sleep Function loop

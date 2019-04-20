@@ -26,12 +26,19 @@ Version 2.5 Features:
   - Added compatibility! Data pack will work in Minecraft 1.13 and 1.14
   - Fixed some messages to be gender neutral.
   - Commented gamerule sendCommandFeedback, this made some people crazy thinking I broke their Minecraft server.
-  - Tested in Snapshot 19w09a. Snowballs have a bug where players can't be affected by them, that broke the waking up feature. I've changed the waking up feature to something more clever. No need for silly snowballs anymore!
-  - Tested in Minecraft 1.13.2 Works as expected.
+  - Tested in Snapshot 19w09a and Minecraft 1.14 Pre-releases.
+  - Changed the waking up feature to something more clever than silly snowballs thrown at players
+  - Tested in Minecraft 1.13.2 Works as expected
+
+Version 3.0 Features:
+  - Version checking
+  - Version control
+  - Changes to setup/install/uninstall
 
 # More resources
 To see this in action you can visit [my website][mcweb].
-Videos:
+Videos from newer to older:
+  - OPS for Minecraft 1.14 [video][yt3.0] (v3.0)
   - Weather changes [video][yt2.4] (v2.4).
   - Messaging update [video][yt2.2] (v2.2).
   - First data pack version [video][yt2.1].
@@ -39,6 +46,7 @@ Videos:
 
 
    [mcweb]: <https://www.madcatgaming.com/one-player-sleep-data-pack/>
+   [yt3.0]: <https://youtu.be/84iws5sjINY>
    [yt2.4]: <https://youtu.be/dg8eUG3aYoo>
    [yt2.2]: <https://youtu.be/CbQggVOskSs>
    [yt2.1]: <https://youtu.be/b_RaFutGFMI>
