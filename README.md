@@ -1,11 +1,17 @@
-# One Player Sleep Data Pack for Minecraft 1.13
+# One Player Sleep Data Pack for Minecraft 1.14
 
 This One Player Sleep Data Pack allows a player to skip the night on a Multiplayer Server.
+
+When a player sleeps, and others are on the server. This datapack fast forwards the night, completing in a few seconds.
+It also announces to chat who is now sleeping.
+
+If someone is sleeping in your bed. This datapack also gives you the ability to hit them, and wake them up!
+
 
 Some of the features include:
   - Plug and Play. Drop the zip file in the datapacks folder and the functions will install automatically
   - Weather Control. A common problem in multiplayer servers is that the weather goes crazy after skipping the night too many times, this Data Pack solves it.
-  - Waking up system. Any player can wake up sleeping players to stop them from skiping the night, just click on the sleeping announcement.
+  - Waking up system. Any player can wake up sleeping players to stop them from skipping the night, just click on the sleeping announcement.
 
 Version 2.2 Features:
   - Random sleeping announcements. A series of messages displayed at random when someone sleeps.
