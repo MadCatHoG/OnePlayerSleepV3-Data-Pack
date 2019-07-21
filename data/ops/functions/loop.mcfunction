@@ -6,9 +6,6 @@
 # Description:
 # One Player Sleep Function loop
 ##########################################
-
-scoreboard players add #sleep_message ops.sleep 1
-scoreboard players add #kick_message ops.sleep 1
 execute store result score #query_time ops.sleep run time query daytime
 
 execute as @a store result score @s ops.sleep run data get entity @s SleepTimer
@@ -24,5 +21,3 @@ execute as @a[scores={ops.kickBed=1}] at @s run function ops:kicked
 execute if score #query_time ops.sleep matches 23500..23600 run scoreboard players reset @a ops.kickBed
 
 execute as @a[nbt={SleepTimer:0s},scores={ops.sleep=1..}] run scoreboard players set @s ops.sleep 0
-execute if score #sleep_message ops.sleep > #sleep_messages ops.sleep run scoreboard players set #sleep_message ops.sleep 1
-execute if score #kick_message ops.sleep > #kick_messages ops.sleep run scoreboard players set #kick_message ops.sleep 1
