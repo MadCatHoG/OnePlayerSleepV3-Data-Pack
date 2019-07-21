@@ -1,5 +1,5 @@
 ##########################################
-# Author: MadCat (youtube.com/MadCatHoG) 
+# Author: MadCat (youtube.com/MadCatHoG)
 # Date: April 20, 2019
 # Version: 3.0
 # Minecraft Version 1.13 / 1.14
@@ -8,7 +8,7 @@
 # Messages to kicked players.
 ##########################################
 
-scoreboard players set @a ops.kickBed 0 
+scoreboard players set @a ops.kickBed 0
 execute as @a[scores={ops.sleep=1..}] at @s run tp @s ~ ~ ~
 execute if score #kick_message ops.sleep matches 1 run tellraw @a[scores={ops.sleep=1..}] ["",{"text":"You have been woken up by ","italic":true,"color":"gray"},{"selector":"@s","italic":true,"color":"gray"}]
 execute if score #kick_message ops.sleep matches 2 run tellraw @a[scores={ops.sleep=1..}] {"text":"Rise and.. Oh wait...","italic":true,"color":"gray"}

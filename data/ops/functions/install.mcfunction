@@ -1,5 +1,5 @@
 ##########################################
-# Author: MadCat (youtube.com/MadCatHoG) 
+# Author: MadCat (youtube.com/MadCatHoG)
 # Date: April 20, 2019
 # Version: 3.0
 # Minecraft Version 1.13 / 1.14

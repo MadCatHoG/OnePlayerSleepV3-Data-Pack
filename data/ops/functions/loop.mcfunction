@@ -1,5 +1,5 @@
 ##########################################
-# Author: MadCat (youtube.com/MadCatHoG) 
+# Author: MadCat (youtube.com/MadCatHoG)
 # Date: March 2, 2019
 # Version: 3.0
 # Minecraft Version 1.13 / 1.14
@@ -12,7 +12,7 @@ scoreboard players add #kick_message ops.sleep 1
 execute store result score #query_time ops.sleep run time query daytime
 
 execute as @a store result score @s ops.sleep run data get entity @s SleepTimer
-execute as @a[scores={ops.sleep=1}] run scoreboard players enable @a ops.kickBed 
+execute as @a[scores={ops.sleep=1}] run scoreboard players enable @a ops.kickBed
 execute as @a[scores={ops.sleep=1}] run function ops:message
 
 # Change the line below to pass the night faster by adding more time
