@@ -1,5 +1,5 @@
 ##########################################
-# Author: MadCat (youtube.com/MadCatHoG) 
+# Author: MadCat (youtube.com/MadCatHoG)
 # Date: April 20, 2019
 # Version: 3.0
 # Minecraft Version 1.13 / 1.14
@@ -8,7 +8,7 @@
 # clears all scoreboards
 ##########################################
 
-datapack disable "file/OnePlayerSleepV3.zip" 
+datapack disable "file/OnePlayerSleepV3.zip"
 scoreboard objectives remove ops.kickBed
 scoreboard objectives remove ops.sleep
 scoreboard players reset #messages

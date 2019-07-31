@@ -8,10 +8,10 @@
 ##########################################
 
 #Removing previous version scoreboards
-datapack disable "file/OnePlayerSleepV2_5.zip" 
-datapack disable "file/OnePlayerSleepV2_4.zip" 
-datapack disable "file/OnePlayerSleepV2_3-clear.zip" 
-datapack disable "file/OnePlayerSleepV2_2.zip" 
+datapack disable "file/OnePlayerSleepV2_5.zip"
+datapack disable "file/OnePlayerSleepV2_4.zip"
+datapack disable "file/OnePlayerSleepV2_3-clear.zip"
+datapack disable "file/OnePlayerSleepV2_2.zip"
 datapack disable "file/OnePlayerSleepV2_1.zip"
 
 scoreboard objectives remove ops.kickBed
