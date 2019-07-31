@@ -8,11 +8,11 @@
 # Messages to kicked players.
 ##########################################
 
-# ops.sleep on the fake player #kick_messages is the number of kick message
+# ops.kick on the fake player #messages is the number of kick message
 
 # The current daytime is already stored in #query_time ops.sleep
 # Modulo that to get a value for random message.
-scoreboard players operation #query_time ops.sleep %= #kick_messages ops.sleep
+scoreboard players operation #query_time ops.sleep %= #messages ops.kick
 
 scoreboard players set @a ops.kickBed 0
 execute as @a[scores={ops.sleep=1..}] at @s run tp @s ~ ~ ~

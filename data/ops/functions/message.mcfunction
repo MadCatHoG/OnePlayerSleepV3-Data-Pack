@@ -8,7 +8,7 @@
 # goes to sleep
 ##########################################
 
-# ops.sleep on the fake player #sleep_messages is the number of sleep message
+# ops.sleep on the fake player #messages is the number of sleep message
 
 # If this is during the day, then it must be a thunderstorm.
 execute if score #query_time ops.sleep matches 23500..23999 run scoreboard players set #query_time ops.sleep -1
@@ -20,7 +20,7 @@ execute if score #query_time ops.sleep matches -1 run weather thunder 1
 # Otherwise, show sleep message
 # The current daytime is already stored in #query_time ops.sleep
 # Modulo that to get a value for random message.
-scoreboard players operation #query_time ops.sleep %= #sleep_messages ops.sleep
+scoreboard players operation #query_time ops.sleep %= #messages ops.sleep
 
 execute if score #query_time ops.sleep matches 0 run tellraw @a ["",{"selector":"@s"},{"text":" fell asleep on the job","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ops.kickBed"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Wake up!","color":"aqua"}]}}}]
 execute if score #query_time ops.sleep matches 1 run tellraw @a ["",{"selector":"@s"},{"text":" is slacking","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ops.kickBed"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Wake up!","color":"aqua"}]}}}]

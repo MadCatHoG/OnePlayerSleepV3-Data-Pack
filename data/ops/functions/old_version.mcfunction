@@ -17,6 +17,14 @@ datapack disable "file/OnePlayerSleepV2_1.zip"
 scoreboard objectives remove ops.kickBed
 scoreboard objectives remove ops.sleep
 
+# Remove fake players.
+# This may cause problems if other datapacks also use
+# fake players by these names.
+scoreboard players reset #sleep_messages
+scoreboard players reset #kick_messages
+scoreboard players reset #sleep_message
+scoreboard players reset #kick_message
+
 #Setting version to current
 scoreboard players set OPS Mad.Versions 30
 tellraw @a ["",{"text":"One Player Sleep v3","bold":true,"color":"dark_aqua"},{"text":" ","bold":true,"color":"green"},{"text":"by ","color":"green"},{"text":"MadCat","bold":true,"color":"green","underlined":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Click to check out MadCat on YouTube","color":"aqua"}]}},"clickEvent":{"action":"open_url","value":"https://youtube.com/MadCatHoG"}},{"text":" (Installed)","italic":true,"color":"green"}]
