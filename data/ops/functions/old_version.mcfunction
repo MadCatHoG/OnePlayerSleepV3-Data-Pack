@@ -8,14 +8,22 @@
 ##########################################
 
 #Removing previous version scoreboards
-datapack disable "file/OnePlayerSleepV2_5.zip" 
-datapack disable "file/OnePlayerSleepV2_4.zip" 
-datapack disable "file/OnePlayerSleepV2_3-clear.zip" 
-datapack disable "file/OnePlayerSleepV2_2.zip" 
+datapack disable "file/OnePlayerSleepV2_5.zip"
+datapack disable "file/OnePlayerSleepV2_4.zip"
+datapack disable "file/OnePlayerSleepV2_3-clear.zip"
+datapack disable "file/OnePlayerSleepV2_2.zip"
 datapack disable "file/OnePlayerSleepV2_1.zip"
 
 scoreboard objectives remove ops.kickBed
 scoreboard objectives remove ops.sleep
+
+# Remove fake players.
+# This may cause problems if other datapacks also use
+# fake players by these names.
+scoreboard players reset #sleep_messages
+scoreboard players reset #kick_messages
+scoreboard players reset #sleep_message
+scoreboard players reset #kick_message
 
 #Setting version to current
 scoreboard players set OPS Mad.Versions 30
