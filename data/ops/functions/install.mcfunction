@@ -1,16 +1,15 @@
 ##########################################
 # Author: MadCat (youtube.com/MadCatHoG) 
-# Date: April 20, 2019
-# Version: 3.0
-# Minecraft Version 1.13 / 1.14
+# Date: February 6, 2020
+# Version: 3.1
+# Minecraft Version 1.13 / 1.14 / 1.15 / 1.16
 # Description:
 # Installs One Player Sleep data pack
 ##########################################
 
-scoreboard objectives add Mad.Versions dummy
-execute unless score OPS Mad.Versions matches ..30 run function ops:old_version
+function ops:old_version
 
-#Creating scoreboard
+#Creating scoreboards
 scoreboard objectives add ops.kickBed trigger
 scoreboard objectives add ops.sleep dummy
 

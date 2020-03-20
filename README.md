@@ -1,4 +1,4 @@
-# One Player Sleep Data Pack for Minecraft 1.13
+# One Player Sleep Data Pack for Minecraft 1.13 / 1.14 / 1.15 / 1.16
 
 This One Player Sleep Data Pack allows a player to skip the night on a Multiplayer Server.
 
@@ -34,6 +34,14 @@ Version 3.0 Features:
   - Version checking
   - Version control
   - Changes to setup/install/uninstall
+
+
+Thank you for choosing my data pack! To better serve the community I've made it compatible with several versions of Minecraft and added some fool-proofing needed for servers with odd settings like having the weather cycle off. Many years of testing this pack in several servers and addressing all the problems has made this a really solid pack. This might be the last version ever needed.
+
+Version 3.1 Features:
+  - Removed Version control (it was confusing people and made them think the pack was not working)
+  - Added checks for weather cycle (if it was off it would set the weather to storm permanently)
+
 
 # More resources
 To see this in action you can visit [my website][mcweb].

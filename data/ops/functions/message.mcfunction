@@ -1,8 +1,8 @@
 ##########################################
 # Author: MadCat (youtube.com/MadCatHoG) 
 # Date: April 20, 2019
-# Version: 3.0
-# Minecraft Version 1.13 / 1.14
+# Version: 3.1
+# Minecraft Version 1.13 / 1.14 / 1.15 / 1.16
 # Description:
 # Shows a random message when a Player
 # goes to sleep
